@@ -1,0 +1,58 @@
+aggiornare versione con i nuovi dump xml, aggiungere item 67 agli item
+
+sistemare problea in cui non appaiono le descrizioni
+
+Mettere pulsante per fare ricerche combinate (con più ricerche di seguito)
+
+Mettere tasto per guida delle varie flag item e mostri (sistemare anche il tasto informazioni)
+
+Metter tasto per stampa in base ad un range
+
+Mettere tasto per confrontare facilmente i file presi dal client metin2
+
+oggetti reliquia anima
+TYPE: ITEM_PASSIVE
+SUB_TYPE: PASSIVE_JOB
+
+
+aggiungere i comandi da GM invece che la guida alle FLAG
+
+/set [id] gem [Number]
+/set [id] honor [Number]
+/x_setting WikiTeamIT exp 1
+
+ecc..
+
+
+usabili - pozioni istantanee
+value 3 = HP%
+value 4 = MP %
+
+sub type runa di resource
+value 1 è l'exp fornita
+
+ITEM
+
+aggiungere traduzioni dei nomi degli item
+
+terminare gli up (set up)
+
+If Sub_type is COSTUME_MOUNT, 
+attack setting can be changed according to horse riding level with value 1. 
+0 Possible to attack regardless of horse riding level (Existing costume mount )
+
+1 Possible to attack depending on horse riding level (Single use as existed)
+  
+2 Cannot attack regardless of horse riding level (56000 Appalosa)
+
+Oggetti con value1 = 1
+71114 Wild Boar Seal (yellow) 
+71116 Wolf Seal (yellow) 
+71118 Tiger Seal (yellow) 
+71120 Lion Seal (yellow) 
+
+MOB
+
+scrivere tooltip Punti Berserk
+
+AiFLAG nuove con RATTCASTSPEED ecc vuol dire che hanno il debuff 

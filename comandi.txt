@@ -1,0 +1,26 @@
+/poly 1 disattiva la trasformazione
+
+/poly 6 -> Sura Femmina
+/poly 7 -> Shamano Maschio
+/poly 8 -> Lican
+
+
+/x_setting WikiTeamIT exp 1
+
+/mci_item vnum per creare una carta mostro
+/polyitem vnum per creare una sfera trasformazione
+
+
+Level /c [value] Adjust C level (already added)
+/sungma_str [value] Adjust Sung ma STR
+/sungma_move [value] Adjust Sung ma Resistance
+/sungma_hp [value] Adjust Sung ma VIT
+/sungma_immnue Adjust Sung ma INT
+/set [character name] cexp [value] Adjust Conqueror EXP
+
+
+/go #392
+
+comando per settare medaglie dell'onore
+
+/set [id] honor [Number]

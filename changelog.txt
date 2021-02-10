@@ -1,0 +1,103 @@
+Versione 3.4 - 
+
+- Corretto un errore dopo l'auto aggiornamento del programma
+
+
+Versione 3.3 - Piccoli Fix
+
+- Aggiornato database alla versione 19.5 del giorno 01/09/2019
+- Corretto un errore che impediva l'avvio del programma in alcune circostanze
+
+Versione 3.2 - Un Aggiornamento Frammentato
+
+- Aggiornato modulo grafico a Pyqt5
+- Aggiunta opzione nel menu file per ignorare le traduzioni forzate dei mob
+- Aggiunta nuova info negli oggetti per l'item per sesto e settimo bonus
+- Aggiornato database alla versione 19.4 del giorno 01/05/2019
+
+Versione 3.1 - Miglioramento degli Oggetti
+
+- Riscritto il codice della gestione dei dati degli oggetti
+- Aggiunto controllo differenza tra versioni diverse di file xml
+- Corretto errore nella stampa dei dati su file
+
+
+Versione 3.0 - Ottimizzazioni Mostruose
+
+- Riscritto il codice della gestione dei dati dei mostri
+- Aggiornato database alla versione 18.4 del giorno 22/10/2018
+- Aggiunte nuove info ai mostri
+- Aggiunti nuovi set up
+- Fixata ricerca per nome dei mostri se si cercavano in italiano
+- Fixato errore nei mostri se si sceglievano i dati del test server
+
+Versione 2.8 - Sempre più dati!
+
+- Aggiornato database alla versione 18.3b del giorno 28/08/2018
+- Aggiunta ricerca per i restanti dati per gli oggetti
+- Corretto problema in caso di fallito auto aggiornamento
+- Aggiunte nuove informazioni alla scheda dei mostri
+
+Versione 2.7 - Difesa Nave
+
+ATTENZIONE!
+A causa dei dati a disposizione, la ricerca per nome restituira'
+soltato il vnum del mostro, si consiglia di usare la ricerca per vnum
+- Aggiornato database alla versione 18.3 del giorno 22/06/2018
+- Aggiunta opzione di debug per controllo dati mob
+- Aggiunta opzione di ricerca per status inflitti nella scheda mob
+- Aggiunte nuove informazioni nella scheda info mostri
+
+Versione 2.6 - Mostri
+
+- Aggiornato il database alla versione 18.2 del giorno 15/05/2018
+- Aggiunte nuove informazioni nelle info dei mostri
+- Aggiunto Set Up come tipo di ricerca per gli oggetti
+- Aggiunta la possibilità di fare ricerche per i mostri
+
+Versione 2.5 - Refactoring
+
+- Aggiornato il database al giorno 20/03/2018
+- Aggiunta ricerca degli oggetti per attributi in una nuova scheda
+- Ottimizzate funzioni di ricerca e gestione dei dati
+- Aggiunte descrizioni dettagliate per i value, quando applicabile
+
+Versione 2.4 - Figli dei Fiori 2018
+
+- Aggiunta funzione per il bottone Set Up per talismani, armi e armature Cianite e Zodiaco
+- Aggiunta opzione di debug per controllo Set Up
+- Aggiornato database al giorno 30/01/2018
+
+Versione 2.3 - Auto Completamento!
+
+- Aggiunto auto-completamento nelle caselle di ricerche
+- Aggiunta icona al programma
+- Aggiornato database al giorno 30-11-2017
+- Corretti nomi con simbolo ' presente
+
+Versione 2.2 - Immagine, puoi!
+
+- Aggiunta icona accanto agli oggetti (99% presenti)
+- Aggiornato il database al giorno 21-11-2017
+- Sistemata descrizione oggetto quando e' troppo lunga
+
+Versione 2.1 - Difese
+
+- Aggiunto calcolo della Difesa per le armature
+- Aggunta possibilita' di vedere i dati italiani o del test Server
+- Aggiunto tasto per aggiornare il programma manualmente
+
+Versione 2.0 - Oggetti
+
+- Aggiunte tutte le info alla scheda degli Item
+- Aggiunto calcolo dell'Attacco Fisico e Magico per le Armi
+- Adesso la ricerca per vnum o nome verra' effettuata solo dopo la pressione di invio
+- La ricerca per nome non e' piu' Case Sensitive
+- Aggiunto controllo e info per oggetti con lo stesso nome
+- Fixato errore nella ricerca per nome
+- Fixato path errato per il file di configurazione
+- Fixato problema con l'auto aggiornamento
+
+Versione 1.0
+
+- Release Iniziale
