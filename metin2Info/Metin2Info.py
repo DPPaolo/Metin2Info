@@ -51,7 +51,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.setWindowTitle('Metin2 Info')
         QtCore.QCoreApplication.setOrganizationName("Akihiko")
         QtCore.QCoreApplication.setApplicationName("Metin2 Info")
-        self.setWindowIcon(QtGui.QIcon("file/Metin2.ico"))
+        self.setWindowIcon(QtGui.QIcon("assets/icon/metin2.ico"))
 
 
         self.MainWidget = QtWidgets.QWidget(self) #Widget Principale
@@ -125,6 +125,10 @@ class MainWindow(QtWidgets.QMainWindow):
         stamp_diff_mob_proto = QtWidgets.QAction("Stampa Differenze Mob Proto", self)
         stamp_diff_mob_proto.setStatusTip("Confronta l'attuale item proto con uno inserito dall'utente, poi stampa i risultati")
         stamp_diff_mob_proto.triggered.connect(QtMetin2.diff_mob_proto)
+
+        stamp_diff_mob_proto = QtWidgets.QAction("Download Interwiki", self)
+        stamp_diff_mob_proto.setStatusTip("[TEST] Crea u file id interwiki per tutti gli oggetti")
+        stamp_diff_mob_proto.triggered.connect(QtMetin2.download_interwiki)
 
         info_aiuto = QtWidgets.QAction("Info sui Dati", self)
         info_aiuto.setStatusTip("Visualizza una guida esplicativa sui vari dati presenti.")
